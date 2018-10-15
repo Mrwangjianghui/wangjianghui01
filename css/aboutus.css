@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding:0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{background:url(../img/bg_all.png) no-repeat top center;}
+.box{    width: 1000px;
+    margin: 0 auto;
+    padding: 156px 0 150px;
+    overflow: hidden;}
+.logo{    width: 330px;
+    height: 68px;
+    margin: 0 auto 60px;
+	background: url(../../images/alogo.png) no-repeat 0px -112px ;
+}
+.women{
+	width: 155px;
+	    height: 38px;
+    margin: 0 auto 55px;
+    overflow: hidden;
+    text-indent: -999px;
+    background: url(../../images/alogo.png) no-repeat -175px -183px ;
+
+}
+
+/*main*/
+.main dl{
+	width: 480px;
+    padding-left: 20px;
+    float: left;
+}
+.main dt{
+	margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #414141;
+}
+.main img{
+
+    width: 148px;
+   
+   
+}
+.main dd{
+	margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #808080;
+}
+.main ul{
+	width: 400px;
+    padding-right: 20px;
+    float: right;
+}
+.main li{
+	width: 148px;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 25px;
+
+}
+.main span{    
+	display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #a5a5a5;
+    }
+    
+    
+    /*nav*/
+nav{
+ 	position: fixed;
+	width: 100%;
+	height: 60;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+}
+nav ul{
+	width: 1000px;
+	margin: 0 auto;
+}
+nav ul li{
+	width: 20%;
+	height: 60px;
+	text-align:center;
+	float:left;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	line-height: 60px;
+}
+nav ul li:nth-of-type(1):hover{
+	background: #228bd6;
+}
+nav ul li:nth-of-type(2):hover{
+	background: #cc3333;
+}
+nav ul li:nth-of-type(3):hover{
+	background: #3aa624;
+}
+nav ul li:nth-of-type(4):hover{
+	background: #c145cc;
+}
+nav ul li:nth-of-type(5):hover{
+	background: #f2ca00;
+}

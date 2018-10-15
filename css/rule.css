@@ -1,0 +1,86 @@
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a,p{
+	text-decoration: none;
+	color: #425766
+}
+body {
+	background: #f6f8fa;
+	font-family: "微软雅黑";
+}
+
+/*header*/
+header {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5)
+}
+header div {
+	width: 940px;
+	margin: 0 auto;
+}
+header span {
+	position: relative;
+	display: block;
+	top: 17px;
+	width: 242px;
+	height: 33px;
+	background: url(../img/sprite.png) no-repeat -28px 0px;
+}
+header h1 {
+	float: left;
+	height: 70px;
+}
+header h1 a {
+	display: block;
+	height: 70px;
+}
+header ul {
+	float: left;
+	padding-left: 40px;
+}
+header ul li {
+	float: left;
+	width: 120px;
+	text-align: center;
+	height: 68px;
+	line-height: 68px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.current {
+	border-bottom: 2px solid #ff4500;
+}
+.current a {
+	color: #ff4500;
+}
+
+
+
+
+.rule{
+	width: 70%;
+	margin: 0 auto;
+}
+.rule h3{
+	margin-top: 40px;
+}
+thead{
+	background-color: #f1f1f1;
+}
+.rule .table:nth-of-type(1){
+	margin-top: 40px;
+}
+thead tr th{
+	font-size: 20px;
+}
+.rule p{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
